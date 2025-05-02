@@ -36,7 +36,7 @@ python main.py path/to/your/data.csv
 The input CSV file must have exactly two columns:
 
 1. Column 1: The new URL to be set in the data field.
-2. Column 2: The handle identifier (e.g., 1961/prefix:suffix or http://hdl.handle.net/1961/prefix:suffix). The script will automatically strip the http(s)://hdl.handle.net/ prefix if present.
+2. Column 2: The handle identifier (e.g., `1961/prefix:suffix` or `http://hdl.handle.net/1961/prefix:suffix`). The script will automatically strip the `http(s)://hdl.handle.net/` prefix if present.
 
 Example CSV (`data.csv`):
 ```csv
